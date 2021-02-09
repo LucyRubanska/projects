@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/avar/CLionProjects/zlomky/main.cpp
+iostream
+-
+zlomky.h
+C:/Users/avar/CLionProjects/zlomky/zlomky.h
+bits/stdc++.h
+-
+
+C:/Users/avar/CLionProjects/zlomky/zlomky.h
+
