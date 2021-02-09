@@ -22,8 +22,8 @@ public:
 
     void reduceFraction(int x, int y); //metoda, ktora upravi na zakladny tvar
 
-    friend std::ostream & operator<<(std::ostream & os, const Zlomok & zlomok); //vstup
-    friend std::istream & operator>>(std::istream & is, Zlomok & zlomok);  //vystup
+    friend std::ostream & operator<<(std::ostream & os, const Zlomok & zlomok);
+    friend std::istream & operator>>(std::istream & is, Zlomok & zlomok);
 
     bool operator>(const Zlomok & druhyZlomok) const;
     bool operator<(const Zlomok & druhyZlomok) const;
